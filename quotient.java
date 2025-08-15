@@ -9,5 +9,6 @@ public class quotient {
         int divident = sc.nextInt();
         int result = divident / divisor;
         System.out.println("Result: " + result);
+        sc.close();
     }
 }
