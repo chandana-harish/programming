@@ -9,26 +9,26 @@ public class calculator {
         System.out.println("enter the second number");
         float number2= sc.nextFloat();
         System.out.println("enter the operator");
-        int operator=sc.next().charAt(0);
+        String operator=sc.next();
         float result;
       
         switch(operator){
-            case '+':{
+            case "+":{
                 result=number1+number2;
                 System.out.println("addition of a number is:"+result);
                 break;
             }
-            case '-':{
+            case "-":{
                 result=number1-number2;
                 System.out.println("subtraction of a number is:"+result);
                 break;
             }
-            case '*':{
+            case "*":{
                 result=number1*number2;
                 System.out.println("multiplication of a number is:"+result);
                 break;
             }
-            case '/':{
+            case "/":{
                 result=number1/number2;
                 System.out.println("division of a number is:"+result);
                 break;
